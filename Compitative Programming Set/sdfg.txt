@@ -1,0 +1,5 @@
+turbo c++ borland(for windows/xp/vista)
+CYGWIN
+Kdevelop4
+gvim
+Sublime Text

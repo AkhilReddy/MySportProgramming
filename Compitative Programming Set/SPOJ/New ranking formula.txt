@@ -1,0 +1,30 @@
+We plan to extend the scoring formula for the main SPOJ ranking.
+
+Currently it looks like this:
+
+user's_points = classical + challenge
+classical:
+= 80/(40+number_of_people_who_have_solved_the_problem) points
+challenge:
+for the top score in the challenge:
+= 3 points
+for any lower score in the challenge:
+= (user's_score relative_to_the top_score) points
+
+Our suggestion is:
+
+user's_points = classical + challenge + tutorial + partial + publ_contests(?)
+classical: (the same as before)
+= 80/(40+number_of_people_who_have_solved_the_problem) points
+challenge: (the same as before)
+for the top score in the challenge:
+= 3 points
+for any lower score in the challenge:
+= (user's_score relative_to_the top_score) points
+tutorial:
+= 40/(40+number_of_people_who_have_solved_the_problem) points
+partial:
+= 80/(40+number_of_people_who_have_solved_the_problem) * (percentage_of_solved_test_cases)
+publ_contests:
+We would like to take public contests into consideration in main ranking. How do you like this idea?
+These contests would be Open Contests XXXX, High School Programming League, Olympiad in Informatics, etc.

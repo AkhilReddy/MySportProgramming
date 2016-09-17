@@ -1,0 +1,10 @@
+1.Selection Sort
+2.Quick Sort
+3.Merge Sort
+4.Max. Element in Array
+5.Min. Element in Array
+6.Check Array has Distinct Elements
+7.Matrix Multiplication
+8.No.of total Bits in Binary rep. of Integer
+9.Tower of Hannoi
+
